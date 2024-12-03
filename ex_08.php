@@ -11,4 +11,14 @@ class Dolly
         $this->age = $age;
         $this->doctor = $doctor;
     }
+    public function __clone()
+    {
+        echo "I will survive !\n";
+    }
+}
+
+function clone_object($object)
+{
+    $object2 = clone $object;
+    return $object2;
 }
