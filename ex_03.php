@@ -45,15 +45,15 @@ class Booba extends Warrior implements GoodManners
     }
     public function say_please()
     {
-        echo "S'il-te-plait" . static::END_WORDS . "\n";
+        echo "S'il-te-plait" . self::END_WORDS . "\n";
     }
     public function say_thanks()
     {
-        echo "Merci" . static::END_WORDS . "\n";
+        echo "Merci" . self::END_WORDS . "\n";
     }
     public function say_sorry($name)
     {
-        echo "Mille excuses, $name" . static::END_WORDS . "\n";
+        echo "Mille excuses, $name" . self::END_WORDS . "\n";
     }
 }
 
