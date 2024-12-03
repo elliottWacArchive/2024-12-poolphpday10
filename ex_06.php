@@ -9,7 +9,7 @@ class Pony
     public function __get($name)
     {
         if (!isset($this->$name)) {
-            echo "Il n'y a pas d'attributs : $name\n";
+            echo "Il n'y a pas d'attribut : $name\n";
         } else {
             echo "Ce n'est pas bien de getter un attribut qui est privé !\n";
             return $this->$name;

@@ -9,6 +9,5 @@ class Pangolin
     {
         $this->friends = $friends;
         $this->skills = $skills;
-        echo "zizi";
     }
 }
