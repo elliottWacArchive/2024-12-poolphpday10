@@ -4,7 +4,7 @@ abstract class Warrior
 {
     public function attack()
     {
-        echo "I’ll kill you, poor noob !";
+        echo "I’ll kill you, poor noob !\n";
     }
     abstract public function represent();
     abstract public function shout();
@@ -18,7 +18,7 @@ class Booba extends Warrior
     }
     public function shout()
     {
-        echo "Bah bien Morray !";
+        echo "Bah bien Morray !\n";
     }
 }
 
@@ -30,6 +30,6 @@ class LaFouine extends Warrior
     }
     public function shout()
     {
-        echo "Je suis proprietaire !";
+        echo "Je suis proprietaire !\n";
     }
 }
