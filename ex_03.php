@@ -27,7 +27,7 @@ abstract class Warrior
 
     public function attack()
     {
-        echo "I’ll kill you, poor noob !\n";
+        echo "I'll kill you, poor noob !\n";
     }
     abstract public function represent();
     abstract public function shout();
